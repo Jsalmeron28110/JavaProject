@@ -15,7 +15,6 @@ public class E7NestedIF {
                 System.out.println("Its to expensive");
             }
 
-
         }else {
             System.out.println("Lets wait for Sunday");
 
