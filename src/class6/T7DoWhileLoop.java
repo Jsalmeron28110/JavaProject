@@ -6,7 +6,7 @@ public class T7DoWhileLoop {
         int i = 2;
 
         do {
-            System.out.print(i);
+            System.out.print(i+" ");
             i+=2;
         } while (i <= 20);
         {
