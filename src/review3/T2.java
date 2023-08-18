@@ -7,7 +7,7 @@ public class T2 {
 
         while (i<=70){
             if (i!=64 && i!=65){
-            System.out.print(i+" ");}
+                  System.out.print(i+" ");}
                 i++;
         }
 
