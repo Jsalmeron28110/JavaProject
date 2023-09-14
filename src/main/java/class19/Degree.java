@@ -7,7 +7,7 @@ public class Degree {
     }
 }
 
-class Bachelors extends Degree {
+class   Bachelors extends Degree {
 
 }
 
