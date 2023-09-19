@@ -1,7 +1,7 @@
 package review6;
 
 public class E3StringMethods {
-    public static void main(String[] args) {
+    public static double main(String[] args) {
         String str = "This is a java class";
         boolean starts = str.startsWith("T");
         int num = 'a';
@@ -17,11 +17,10 @@ public class E3StringMethods {
         System.out.println(c);
 
 
-        char[] arr= str.toCharArray();
-        for(char ch: arr ){
+        char[] arr = str.toCharArray();
+        for (char ch : arr) {
             System.out.println(ch);
         }
-
-
+        return 0;
     }
 }

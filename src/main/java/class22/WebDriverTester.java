@@ -8,9 +8,9 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 public class WebDriverTester {
 
     public static void main(String[] args) throws InterruptedException {
-     //   WebDriver w=new ChromeDriver();
-     //   WebDriver w=new FirefoxDriver();
-       // WebDriver w=new EdgeDriver();
+       /* WebDriver w=new ChromeDriver();
+       WebDriver w2=new FirefoxDriver();
+        WebDriver w3=new EdgeDriver();*/
         WebDriver[] browsers={new EdgeDriver(),new FirefoxDriver(),new ChromeDriver()};
 
         for(WebDriver w:browsers) {
@@ -23,7 +23,7 @@ public class WebDriverTester {
             w.close();
         }
 
-        /*ChromeDriver c=new ChromeDriver();
+     /*   ChromeDriver c=new ChromeDriver();
         c.manage().window().maximize();
         Thread.sleep(2000);
         c.navigate().to("https://amazon.com");
@@ -35,12 +35,12 @@ public class WebDriverTester {
         FirefoxDriver f=new FirefoxDriver();
         f.manage().window().maximize();
         Thread.sleep(2000);
-        f.navigate().to("https://amazon.com");1
+        f.navigate().to("https://amazon.com");
         Thread.sleep(2000);
         System.out.println(f.getTitle());
         Thread.sleep(2000);
-        f.close();*/
-
+        f.close();
+*/
 
 
 
