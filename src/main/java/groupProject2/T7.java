@@ -10,8 +10,7 @@ public class T7 {
         fruit.add("Apricot");
         fruit.add("Mango");
         fruit.add("Avocado");
-        //fruit.remove(0);
-        System.out.println(fruit);
+
 
         fruit.removeIf(x -> !x.startsWith("A"));
         System.out.println(fruit.toString().toLowerCase());

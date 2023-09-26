@@ -26,9 +26,6 @@ public class T5 {
             } else {
                 System.out.println(w1 + " and " + w2 + " are not anagrams.");
             }
-
-        } else {
-            System.out.println(w1 + " and " + w2 + " are not anagrams.");
         }
     }
 }
