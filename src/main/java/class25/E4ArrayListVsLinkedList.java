@@ -1,7 +1,7 @@
 package class25;
 
-import java.util.ArrayList;
 import java.util.LinkedList;
+
 
 public class E4ArrayListVsLinkedList {
     public static void main(String[] args) {

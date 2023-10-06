@@ -1,11 +1,11 @@
 package review10;
 
 public abstract class Animal {
-
     abstract void speak();
+    abstract void eat();
 
-    abstract  void eat();
 }
+
 class Dog extends Animal{
     @Override
     void speak() {
@@ -17,6 +17,7 @@ class Dog extends Animal{
         System.out.println("Dogs like to eat bones");
     }
 }
+
 class Cat extends Animal{
     @Override
     void speak() {
@@ -25,6 +26,6 @@ class Cat extends Animal{
 
     @Override
     void eat() {
-        System.out.println("Cats like to eat tuna");
+        System.out.println("Cats like to Eat free Fish from Giulia");
     }
 }

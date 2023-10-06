@@ -14,7 +14,7 @@ public class T6 {
         int number=scanner.nextInt();
 
         if (number %2==0){
-            System.out.println("This number is not a prime number.4");
+            System.out.println("This number is not a prime number.");
         }else{
             System.out.println("This number is a prime number.");
         }
